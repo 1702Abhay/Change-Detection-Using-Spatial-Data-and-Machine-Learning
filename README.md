@@ -1,7 +1,7 @@
 # Change-Detection-Using-Spatial-Data-and-Machine-Learning
 Monitored LULC changes using QGIS and supervised ML classifiers.
 
-In this project, I performed Land Use Land Cover (LULC) change detection using multi-temporal satellite imagery. I used QGIS for preprocessing and visualization, and applied supervised machine learning classifiers to classify land cover for different years.
+In this project, I performed Land Use Land Cover (LULC) change detection using multi-temporal satellite imagery. I used QGIS and Erdas imagine for preprocessing and visualization, and applied supervised machine learning classifiers to classify land cover for different years.
 
 First, I collected satellite data (like Sentinel-2), performed preprocessing such as clipping, cloud masking, and band stacking. Then I created training samples for classes like vegetation, water, and built-up areas.
 
