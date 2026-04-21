@@ -10,20 +10,27 @@ Using these samples, I trained a classifier (Random Forest) to generate LULC map
 This helped in understanding urban growth patterns and environmental changes.
 
 # Workflow (Step-by-Step)
+
 Step 1: Data Collection
+
 Sentinel-2 imagery (different years)
 AOI shapefile
+
 Step 2: Preprocessing (QGIS)
+
 Clip raster to AOI
 Band stacking
 Remove clouds (if needed)
+
 Step 3: Training Data
 Create polygons for:
 Water
 Vegetation
 Built-up
 Bare soil
+
 Step 4: Classification
 Use Random Forest / SVM
+
 Step 5: Change Detection
 Compare classified maps (Year1 vs Year2)
